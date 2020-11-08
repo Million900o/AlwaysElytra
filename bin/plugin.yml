@@ -1,0 +1,19 @@
+name: alwaysElytra
+main: alwaysElytra.Main
+version: 0.0.1
+api-version: 1.16
+commands:
+  toggle:
+    description: Toggle being stuck in elytra mode.
+    usage: toggle
+    permission: elytra.toggle
+permissions:
+  elytra.toggle:
+    description: Allow you to do /toggle
+    default: true
+  elytra.toggleinair:
+    description: Allow you to toggle elytra mode by double jumping
+    default: op
+  elytra.propel:
+    description: Allow you to propel yourself by crouching in air
+    default: op
